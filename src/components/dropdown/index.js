@@ -506,7 +506,8 @@ export default class Dropdown extends PureComponent {
 
         return (
             <TextInput
-                style={{backgroundColor: "transparent", marginBottom: 16}}
+                style={{ backgroundColor: "transparent", marginBottom: 16 }}
+
                 label=''
                 {...props}
                 value={title}
@@ -554,9 +555,9 @@ export default class Dropdown extends PureComponent {
 
         return (
             <TextInput.Icon
-              style={triangleStyle}
-              color={this.props.iconColor ? this.props.iconColor : '#000'}
-              name={this.props.icon ? this.props.icon : 'chevron-down'}
+                style={{ backgroundColor: 'transperent' }}
+                color={this.props.iconColor ? this.props.iconColor : '#000'}
+                name={this.props.icon ? this.props.icon : 'chevron-down'}
             />
         );
     }
